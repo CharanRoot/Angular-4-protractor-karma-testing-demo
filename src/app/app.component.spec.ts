@@ -35,13 +35,13 @@ describe('AppComponent', function () {
 
   it('should display original title', () => {
     fixture.detectChanges();
-    expect(el.textContent).toContain(comp.title);
+    expect(el.textContent).toContain(comp.title); // Testing  'Tour of Heroes' title
   });
 
   it('should display a different test title', () => {
     comp.title = 'Test Title';
     fixture.detectChanges();
-    expect(el.textContent).toContain('Test Title');
+    expect(el.textContent).toContain('Test Title'); // Custom title  
   });
 });
 

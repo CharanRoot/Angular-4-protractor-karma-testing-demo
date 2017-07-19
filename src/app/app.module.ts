@@ -48,3 +48,4 @@ import { HeroSearchComponent }  from './components/hero-search/hero-search.compo
     ]
 })
 export class AppModule { }
+
